@@ -1,0 +1,35 @@
+.fila1 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+
+.fila2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.fila3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fila4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.fila5 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.fila1, .fila2, .fila3, .fila4, .fila5 {
+    border: 1px solid #000;
+}
+
+.contenedor {
+    text-align: center;
+    background-color: aqua;
+    border-left:  #000 1px solid;
+    border-right: #000 1px solid;
+}
